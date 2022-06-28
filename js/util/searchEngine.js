@@ -22,6 +22,11 @@ var searchEngines = {
     suggestionsURL: 'https://ac.duckduckgo.com/ac/?q=%s&type=list&t=min',
     queryParam: 'q'
   },
+  Kagi: {
+    name: 'Kagi',
+    searchURL: 'https://kagi.com/search?q=%s',
+    queryParam: 'q'
+  },
   Google: {
     name: 'Google',
     searchURL: 'https://www.google.com/search?q=%s',
@@ -31,6 +36,11 @@ var searchEngines = {
     name: 'Bing',
     searchURL: 'https://www.bing.com/search?q=%s',
     suggestionsURL: 'https://www.bing.com/osjson.aspx?query=%s',
+    queryParam: 'q'
+  },
+  Yep: {
+    name: 'Yep', 
+    searchURL: 'https://www.yep.com/web?q=%s',
     queryParam: 'q'
   },
   Yahoo: {
