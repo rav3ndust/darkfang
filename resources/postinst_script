@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+    update-alternatives --install /usr/bin/x-www-browser \
+        x-www-browser /opt/Darkfang/darkfang 80
+    chown root /opt/Darkfang/chrome-sandbox
+    chmod 4755 /opt/Darkfang/chrome-sandbox
+    echo "Run sudo xdg-settings set default-web-browser darkfang.desktop && sudo update-alternatives --config x-www-browser to set Darkfang as your default browser."
+    ln -s /opt/Darkfang/darkfang /usr/bin/darkfang
+fi
