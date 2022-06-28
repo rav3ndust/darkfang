@@ -24,6 +24,7 @@ More things we plan to build into the browser in the future:
 - Easy **User-Agent Switcher** - in case you need to appear as if you're coming from another device. 
 - Built-in **Tor Mode** - automatically send your Darkfang traffic over Tor for maximum privacy. 
 - Built-in **Command Center** for communication on the web, syncing your work platforms, and other productivity tools - right on one page.
+- Inbuilt support for **Web Monetization** through an integration such as [Coil](https://coil.com). 
 
 ### Credits
 
