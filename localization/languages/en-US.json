@@ -117,17 +117,17 @@
     "phishingErrorVisitAnyway": "Visit site anyway",
     "phishingErrorLeave": "Leave this site",
     /* multiple instances alert */
-    "multipleInstancesErrorMessage": "An error occurred. Please close any other open instances and restart Min.",
+    "multipleInstancesErrorMessage": "An error occurred. Please close any other open instances and restart Darkfang.",
     /* pages/sessionRestoreError/index.html */
     "sessionRestoreErrorTitle": "An error occurred",
-    "sessionRestoreErrorExplanation": "Your saved tabs couldn't be restored correctly.",
-    "sessionRestoreErrorBackupInfo": "We've saved a backup of your data at this location: %l.", //%l will be replaced with a path to a file
+    "sessionRestoreErrorExplanation": "Darkfang couldn't properly restore your tabs.",
+    "sessionRestoreErrorBackupInfo": "Darkfang saved a backup of your data at this location: %l.", //%l will be replaced with a path to a file
     "sessionRestoreErrorLinkInfo": {
-      "unsafeHTML": "If this error continues to occur, please open a new issue <a href=\"https://github.com/minbrowser/min\" target=\"_blank\">here</a>."
+      "unsafeHTML": "If this error continues to occur, please open a new issue <a href=\"https://github.com/rav3ndust/darkfang\" target=\"_blank\">here</a>."
     },
     /* pages/settings/index.html */
     "settingsPreferencesHeading": "Preferences",
-    "settingsRestartRequired": "You need to restart to apply these changes.",
+    "settingsRestartRequired": "You need to restart Darkfang Browser to apply these changes.",
     "settingsPrivacyHeading": "Content Blocking",
     "settingsContentBlockingLevel0": "Allow all ads and trackers",
     "settingsContentBlockingLevel1": "Block third-party ads and trackers",
@@ -215,13 +215,13 @@
     "appMenuReportBug": "Report a Bug",
     "appMenuTakeTour": "Take a Tour",
     "appMenuViewGithub": "View on GitHub",
-    "appMenuAbout": "About %n", //%n is replaced with app name
+    "appMenuAbout": "About Darkfang", 
     "appMenuPreferences": "Preferences",
     "appMenuServices": "Services",
-    "appMenuHide": "Hide %n",
+    "appMenuHide": "Hide Darkfang",
     "appMenuHideOthers": "Hide Others",
     "appMenuShowAll": "Show All",
-    "appMenuQuit": "Quit %n",
+    "appMenuQuit": "Quit Darkfang",
     "appMenuBringToFront": "Bring All to Front",
     /* PDF Viewer */
     "PDFPageCounter": {
@@ -267,7 +267,7 @@
     "passwordManagerSetupRetry": "Make sure you're using the right file and entering a correct password. You can retry by dragging the tool here again.",
     "passwordManagerUnlock": "Enter your %p master password to unlock the password store:",
     /* Password save bar */
-    "passwordCaptureSavePassword": "Save password for %s?",
+    "passwordCaptureSavePassword": "Should DarkFang save the password for %s?",
     "passwordCaptureSave": "Save",
     "passwordCaptureDontSave": "Don't save",
     "passwordCaptureNeverSave": "Never save",
